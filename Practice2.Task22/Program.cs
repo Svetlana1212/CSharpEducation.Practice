@@ -6,10 +6,13 @@
         static int userImput;
 
 
+Practice2.Task18-25
+
         static void gameStart()
         {
             
         }
+ main
         static void Main(string[] args)
         {
             Console.WriteLine("Игра 'Угадай число'");
@@ -17,15 +20,16 @@
             Console.WriteLine("Для выхода из игры нажмите клавишу F");
             do
             {
-                
+Practice2.Task18-25
+                 main
                 Random random = new Random();
                 int rand = random.Next(1, 100);
                 Console.WriteLine("Введите число от 1 до 100 и нажмите Enter: ");
 
                 int userCount = 0;
                 do
-                {
-                    
+                 Practice2.Task18-2
+                   main
                     userImput = Convert.ToInt32(Console.ReadLine());
                     if (rand == userImput)
                     {
@@ -60,8 +64,15 @@
                 string game = (string)Console.ReadLine();
                 StopGame = (game == "Да" || game == "да") ? true : false;
             } while (StopGame == true);
+      Practice2.Task18-25
+
+
+        }
+    }
+}
             
             
         }
     }
 }
+main
